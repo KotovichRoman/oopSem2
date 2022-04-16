@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<ArrayOfFlat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Flat>
+    <SquareFootage xmlns="lab2">314</SquareFootage>
+    <RoomsCount xmlns="lab2">2</RoomsCount>
+    <BuildDate xmlns="lab2">2022-03-10T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">-</Kitchen>
+    <BathRoom xmlns="lab2">+</BathRoom>
+    <Toilet xmlns="lab2">+</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">0</Price>
+    <Rooms xmlns="lab2">
+      <Square>12</Square>
+      <RoomWindows>12</RoomWindows>
+      <WindowsSide>asd</WindowsSide>
+    </Rooms>
+    <Rooms xmlns="lab2">
+      <Square>12</Square>
+      <RoomWindows>32</RoomWindows>
+      <WindowsSide>asf</WindowsSide>
+    </Rooms>
+    <Addres xmlns="lab2">
+      <Country>Беларусь</Country>
+      <City>asd</City>
+      <District>asdasd</District>
+      <Street>asd</Street>
+      <House>2</House>
+      <FlatNumber>6</FlatNumber>
+    </Addres>
+  </Flat>
+  <Flat>
+    <SquareFootage xmlns="lab2">213</SquareFootage>
+    <RoomsCount xmlns="lab2">1</RoomsCount>
+    <BuildDate xmlns="lab2">2022-03-10T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">+</Kitchen>
+    <BathRoom xmlns="lab2">+</BathRoom>
+    <Toilet xmlns="lab2">-</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">0</Price>
+    <Rooms xmlns="lab2">
+      <Square>123</Square>
+      <RoomWindows>32</RoomWindows>
+      <WindowsSide>Юг</WindowsSide>
+    </Rooms>
+    <Addres xmlns="lab2">
+      <Country>Россия</Country>
+      <City>dds</City>
+      <District>asd</District>
+      <Street>d</Street>
+      <House>5</House>
+      <FlatNumber>6</FlatNumber>
+    </Addres>
+  </Flat>
+  <Flat>
+    <SquareFootage xmlns="lab2">6</SquareFootage>
+    <RoomsCount xmlns="lab2">0</RoomsCount>
+    <BuildDate xmlns="lab2">2022-03-10T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">-</Kitchen>
+    <BathRoom xmlns="lab2">-</BathRoom>
+    <Toilet xmlns="lab2">-</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">0</Price>
+    <Rooms xmlns="lab2">
+      <Square>7</Square>
+      <RoomWindows>0</RoomWindows>
+      <WindowsSide>bbnnn</WindowsSide>
+    </Rooms>
+    <Rooms xmlns="lab2">
+      <Square>0</Square>
+      <RoomWindows>0</RoomWindows>
+      <WindowsSide />
+    </Rooms>
+    <Addres xmlns="lab2">
+      <Country>Беларусь</Country>
+      <City>kjhh</City>
+      <District>,mnb</District>
+      <Street>kjhg</Street>
+      <House>1</House>
+      <FlatNumber>1</FlatNumber>
+    </Addres>
+  </Flat>
+  <Flat>
+    <SquareFootage xmlns="lab2">0</SquareFootage>
+    <RoomsCount xmlns="lab2">1</RoomsCount>
+    <BuildDate xmlns="lab2">2022-03-10T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">-</Kitchen>
+    <BathRoom xmlns="lab2">-</BathRoom>
+    <Toilet xmlns="lab2">-</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">1000</Price>
+    <Addres xmlns="lab2">
+      <Country />
+      <City />
+      <District />
+      <Street />
+      <House>1</House>
+      <FlatNumber>1</FlatNumber>
+    </Addres>
+  </Flat>
+  <Flat>
+    <SquareFootage xmlns="lab2">0</SquareFootage>
+    <RoomsCount xmlns="lab2">0</RoomsCount>
+    <BuildDate xmlns="lab2">0001-01-01T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">-</Kitchen>
+    <BathRoom xmlns="lab2">-</BathRoom>
+    <Toilet xmlns="lab2">-</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">0</Price>
+  </Flat>
+  <Flat>
+    <SquareFootage xmlns="lab2">21</SquareFootage>
+    <RoomsCount xmlns="lab2">1</RoomsCount>
+    <BuildDate xmlns="lab2">2022-03-10T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">+</Kitchen>
+    <BathRoom xmlns="lab2">+</BathRoom>
+    <Toilet xmlns="lab2">-</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">1420</Price>
+    <Addres xmlns="lab2">
+      <Country>Беларусь</Country>
+      <City>asd</City>
+      <District>asd</District>
+      <Street>asd</Street>
+      <House>1</House>
+      <FlatNumber>1</FlatNumber>
+    </Addres>
+  </Flat>
+  <Flat>
+    <SquareFootage xmlns="lab2">212</SquareFootage>
+    <RoomsCount xmlns="lab2">1</RoomsCount>
+    <BuildDate xmlns="lab2">2022-03-10T00:00:00</BuildDate>
+    <Kitchen xmlns="lab2">+</Kitchen>
+    <BathRoom xmlns="lab2">+</BathRoom>
+    <Toilet xmlns="lab2">-</Toilet>
+    <Basement xmlns="lab2">-</Basement>
+    <Balcony xmlns="lab2">-</Balcony>
+    <Price xmlns="lab2">5240</Price>
+    <Addres xmlns="lab2">
+      <Country>Беларусь</Country>
+      <City>ds</City>
+      <District>a</District>
+      <Street>asd</Street>
+      <House>1</House>
+      <FlatNumber>1</FlatNumber>
+    </Addres>
+  </Flat>
+</ArrayOfFlat>

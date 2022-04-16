@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Flat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="lab2">
+  <squareFootage>21</squareFootage>
+  <buildDate>2022-03-03T10:49:19.0845643+03:00</buildDate>
+  <kitchen>true</kitchen>
+  <bathRoom>true</bathRoom>
+  <toilet>false</toilet>
+  <basement>false</basement>
+  <balcony>false</balcony>
+</Flat>balcony>
+</Flat>
