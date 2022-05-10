@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\lab9.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\EventsWindow.g.cs
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\GenerateTextUserControl.g.cs
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\RandomUserControl.g.cs
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\lab9_MarkupCompile.cache
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\lab9_MarkupCompile.lref
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\EventsWindow.baml
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\GenerateTextUserControl.baml
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\RandomUserControl.baml
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\lab9.dll
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\ref\lab9.dll
+C:\Users\User\Desktop\GitHub\oop (sem 2)\lab9\lab9\obj\Debug\net6.0-windows\lab9.pdb

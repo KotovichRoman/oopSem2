@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="MainTitle">Shop</v:String>
+    <v:String x:Key="AddButton">Add</v:String>
+    <v:String x:Key="CategoryAll">All</v:String>
+    <v:String x:Key="CategoryAction">Action</v:String>
+    <v:String x:Key="CategoryStrategy">Strategy</v:String>
+    <v:String x:Key="CategorySimulator">Simulator</v:String>
+    <v:String x:Key="CategorySlesher">Slesher</v:String>
+    <v:String x:Key="CategorySport">Sport</v:String>
+    <v:String x:Key="SortNot">Without sort</v:String>
+    <v:String x:Key="SortTitleAsc">By Title ▲</v:String>
+    <v:String x:Key="SortTitleDesc">By Title ▼</v:String>
+    <v:String x:Key="Search">Search</v:String>
+    <v:String x:Key="BookTitle">game</v:String>
+    <v:String x:Key="GameCost">Cost:</v:String>
+    <v:String x:Key="GameQuantity">Amount:</v:String>
+
+    <v:String x:Key="AddBook">New game</v:String>
+    <v:String x:Key="AddName">Title</v:String>
+    <v:String x:Key="AddGenre">Genre</v:String>
+    <v:String x:Key="AddPrice">Price</v:String>
+    <v:String x:Key="AddQuantity">Quantity</v:String>
+    <v:String x:Key="AddStatuse">Status</v:String>
+    <v:String x:Key="AddImage">Image</v:String>
+    <v:String x:Key="AddSelectedImage">Take Image</v:String>
+    <v:String x:Key="AddChoose">Select</v:String>
+    <v:String x:Key="AddCancel">Cancel</v:String>
+    <v:String x:Key="AddOk">Add</v:String>
+    <v:String x:Key="EditOk">Edit</v:String>
+    <v:String x:Key="Editing">Editing</v:String>
+
+    <v:String x:Key="AboutEdit">Edit</v:String>
+    <v:String x:Key="AboutAdd">Add</v:String>
+    <v:String x:Key="AboutRemove">Delete</v:String>
+
+    <v:String x:Key="ChangeLang">English</v:String>
+</ResourceDictionary>

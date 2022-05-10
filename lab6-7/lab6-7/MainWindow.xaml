@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         MinHeight="450" MinWidth="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="Pink">
+            <Setter Property="Control.Background" Value="BlueViolet" />
+            <Setter Property="Control.Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
     <Grid Margin="0,0,-0.4,0">
         <Grid.RowDefinitions>
             <RowDefinition x:Name="Main" Height="30px"></RowDefinition>

@@ -22,22 +22,18 @@ namespace lab6_7
     public partial class MainWindow : Window
     {
         public string filePath = "C:/Users/User/Desktop/GitHub/oop (sem 2)/lab6-7/lab6-7/games.xml";
-
         public List<Game> games = new List<Game>();
+        public static MainWindow mainWindow = new MainWindow();
 
         public MainWindow()
         {
             InitializeComponent();
-
-           
+            mainWindow = this;
         }
-
         private void AddObjectButton_Click(object sender, RoutedEventArgs e)
         {
             AddWindow addWindow = new AddWindow();
             addWindow.Show();
-
-            Close();
         }
 
         private void GameList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -46,12 +42,17 @@ namespace lab6_7
             AboutWindow aboutWindow = new AboutWindow(game);
 
             aboutWindow.Show();
-
-            Close();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            Update();
+        }
+
+        public void Update()
+        {
+            GameList.ItemsSource = null;
+
             games = XmlSerializeWrapper.Deserialize<Game>(filePath);
             GameList.ItemsSource = games;
         }

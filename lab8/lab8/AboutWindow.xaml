@@ -1,0 +1,45 @@
+﻿<Window x:Class="lab67.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab67"
+        mc:Ignorable="d" Closed="Window_Closed"
+       Title="AboutWindow" MinHeight="450" MinWidth="800" MaxHeight="450" MaxWidth="800" Height="450" Width="800">
+    <Grid Margin="0,0,-0.4,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image x:Name="ImageField" HorizontalAlignment="Left" Margin="10" Width="380" Height="400" VerticalAlignment="Top"/>
+        <StackPanel Grid.Column="1" Margin="20" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock x:Name="NameLabel" FontSize="20" TextWrapping="Wrap" Text="{DynamicResource AddName}"/>
+                <TextBlock x:Name="NameBox" FontSize="20" TextWrapping="Wrap"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock x:Name="GenresLabel" FontSize="20" TextWrapping="Wrap" Text="{DynamicResource AddGenre}"/>
+                <TextBlock x:Name="GenresBox" FontSize="20" TextWrapping="Wrap"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock x:Name="PriceLabel" FontSize="20" TextWrapping="Wrap" Text="{DynamicResource AddPrice}"/>
+                <TextBlock x:Name="PriceBox" FontSize="20" TextWrapping="Wrap"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock x:Name="QuantityLabel" FontSize="20" TextWrapping="Wrap" Text="{DynamicResource AddQuantity}"/>
+                <TextBlock x:Name="QuantityBox" FontSize="20" TextWrapping="Wrap"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <TextBlock x:Name="StatusLabel" FontSize="20" TextWrapping="Wrap" Text="{DynamicResource AddStatuse}"/>
+                <TextBlock x:Name="StatusBox" FontSize="20" TextWrapping="Wrap" Style="{DynamicResource DataTrigger}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,60">
+                <Button x:Name="EditButton" Content="{DynamicResource Editing}" Width="75" Margin="40,0" Click="EditButton_Click"/>
+                <Button x:Name="DeleteButton" Content="{DynamicResource AboutRemove}" Width="75" Click="DeleteButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -22,7 +22,6 @@ namespace lab6_7
     {
         public string filePath = "C:/Users/User/Desktop/GitHub/oop (sem 2)/lab6-7/lab6-7/games.xml";
         public string imgPath;
-
         public MainWindow mainWindow = new MainWindow();
 
         public AddWindow()
@@ -73,7 +72,8 @@ namespace lab6_7
                     games.Add(game);
                     XmlSerializeWrapper.Serialize<Game>(games, filePath);
 
-                    mainWindow.Show();
+                    MainWindow.mainWindow.Update();
+                    
                     Close();
                 }
             }

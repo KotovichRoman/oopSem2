@@ -72,7 +72,13 @@ namespace lab6_7
 
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            EditWindow editWindow = new EditWindow();
+            windowGame.Name = NameBox.Text;
+            windowGame.Genres = GenresBox.Text;
+            windowGame.Price = Convert.ToInt32(PriceBox.Text);
+            windowGame.Quantity = Convert.ToInt32(QuantityBox.Text);
+            windowGame.ImgSrc = Convert.ToString(ImageField.Source);
+
+            EditWindow editWindow = new EditWindow(windowGame);
 
             editWindow.Show();
         }
